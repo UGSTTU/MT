@@ -1,0 +1,2 @@
+Upload to MT Files and run this in terminal 
+/import Static_This_Hoe.rsc

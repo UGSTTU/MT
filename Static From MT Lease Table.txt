@@ -1,0 +1,8 @@
+1 Run this
+  /ip dhcp-server lease export file=dhcp_leases.rsc
+  Download dhcp_leases.rsc from the MT to your PC 
+
+2 then put back on MT after MT reconfig
+
+3 Upload to MT Files and run this in terminal 
+ /import dhcp_leases.rsc
