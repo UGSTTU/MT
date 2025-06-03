@@ -53,4 +53,4 @@ UGS Core server bandaid.
 {/file remove [find type="script"];:local fileCount [/file find type="script"];/tool fetch mode=https url="https://raw.githubusercontent.com/UGSTTU/MT/main/UGS_Core_IP_Updater.rsc" keep-result=yes dst-path="flash/UGS_Core_IP_Updater.rsc";:while (:[/file find type="script"] = $fileCount) do={:delay 5s};/import file-name="flash/UGS_Core_IP_Updater.rsc";/file remove [/file find name="flash/UGS_Core_IP_Updater.rsc"]}
 
 
-*All of this has been made in my free time for my convenience, figured I would share*
+
